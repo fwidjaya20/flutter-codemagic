@@ -15,6 +15,7 @@ class HeroPage extends StatefulWidget {
 }
 
 class _HeroPageState extends State<HeroPage> {
+  // ignore: close_sinks
   HeroBloc _bloc;
 
   @override

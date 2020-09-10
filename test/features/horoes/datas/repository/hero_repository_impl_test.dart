@@ -1,4 +1,3 @@
-import 'package:dartz/dartz.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:fluttertesting/cores/exceptions/exception.dart';
 import 'package:fluttertesting/cores/failure/failure.dart';
@@ -43,7 +42,6 @@ void main() {
       }
     ];
     List<HeroModel> heroModels = mockData.map((e) => HeroModel.fromJson(e)).toList();
-    List<HeroEntity> heroEntities = heroModels.map((e) => e.entity).toList();
 
     when(dataSourceMock.getHeroes())
       .thenAnswer((realInvocation) async => heroModels);
