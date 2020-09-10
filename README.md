@@ -1,3 +1,5 @@
+[![Codemagic build status](https://api.codemagic.io/apps/5f59a56a4a656e1f9d79905f/5f59a56a4a656e1f9d79905e/status_badge.svg)](https://codemagic.io/apps/5f59a56a4a656e1f9d79905f/5f59a56a4a656e1f9d79905e/latest_build)
+
 # Flutter CI CD (Code Magic)
 
 ## GUI Config
